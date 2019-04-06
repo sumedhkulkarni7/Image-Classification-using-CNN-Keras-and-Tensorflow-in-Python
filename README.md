@@ -7,20 +7,20 @@
 
 ### This project is being done as a competition by many students and the best accuracy achieved is 70%. We were able to achieve 63% accuracy for 101 classes. This falls in the top 5 for the competition. For 10 classes we were able to achieve an accuracy of 95% 
 
-# Data
+## Data
 The dataset is obtained from an opensource platform. It is available on CalTech website as CalTech 101 Image classification dataset.
 It can be accessed from the link - http://www.vision.caltech.edu/Image_Datasets/Caltech101
 
-# Analysis Performed
+## Analysis Performed
 
-## Objective 
+### Objective 
 Image Classification using CNN in Keras and Tensorflow for CalTech 101 dataset.
 
 
-## Approach
+### Approach
 We have used classic Neural Networks(CNN) to perform image classification. Using Keras and TensorFlow in Python, different maxpooling and concolutional layers were added to the neural network. The labels were pre-defined as the class names and the model was trained on this neural network.
 
-## Steps
+### Steps
 1. Read the images
 2. Pre-process and rescale the images
 3. Use different types of activation functions like tanh and Relu
@@ -28,7 +28,7 @@ We have used classic Neural Networks(CNN) to perform image classification. Using
 5. Train the model on training dataset
 6. Evaluate the model on Test set of images
 
-## Insight
+### Insight
 ### Comparison of accuracy of different activation functions
 
 ![image](https://user-images.githubusercontent.com/35174083/55663673-68e2b900-57ef-11e9-8e8c-b43badef6c41.png)
@@ -37,6 +37,7 @@ We have used classic Neural Networks(CNN) to perform image classification. Using
 ![image](https://user-images.githubusercontent.com/35174083/55663685-9e87a200-57ef-11e9-9e05-94450591cf5e.png)
 
 
-## Conclusion
-1. Relu performs better for image classification as compared to tanh activation function.
-2. 
+### Conclusion
+1. Relu performs better for image classification as compared to tanh activation function
+2. The convolutional network gives an accuracy of 95% for the 10 classes with maximum number of images 
+3. While training the images using CNN the number of training samples in important. For example, if there are less samples to train on then the model won't perform accurately.
