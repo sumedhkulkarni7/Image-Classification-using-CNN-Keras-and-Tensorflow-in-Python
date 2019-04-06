@@ -1,7 +1,8 @@
 # IE 7615: NeuralNetworks and Deep Learning- Final Project 
-### Contributed by: Sumedh Kulkarni
-###                 Pranav Walimbe
-###                 Prathamesh Mundhe
+### Contributed by: 
+##### 1. Sumedh Kulkarni
+##### 2. Pranav Walimbe
+##### 3. Prathamesh Mundhe
                 
 ## Image Classification using CNN, Keras and Tensorflow in Python
 
